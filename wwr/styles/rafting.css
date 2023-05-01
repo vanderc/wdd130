@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Heebo&family=Lora&display=swap);
+:root {
+    --primary-color: #5e239d;
+    --secondary-color: #f3e8ee;
+    --accent1-color: #a37774;
+    --accent2-color: #7c90db;
+
+    --heading-font: 'Heebo', sans-serif;
+    --paragraph-font: 'Lora', serif;
+
+    --nav-background-color: #ddc4dd;
+    --nav-link-color: #102e4a;
+    --nav-hover-link-color: #dd1c1a;
+    --nav-hover-background-color: #d1abad;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
