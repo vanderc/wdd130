@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: px;
+    max-width: 960px;
     padding: 20px;
 }
 
