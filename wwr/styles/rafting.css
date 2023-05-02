@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
@@ -63,17 +64,29 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-}
-
-.hero article {
-    width: 400px;
+    text-align: center;
+    width: 920px;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 15px;
-    background-color: #a37774;
-    color: #000;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.6;
+    display: grid;
+    grid-template-columns: 100fr 3fr 1fr;
+    margin-top: -270px;
+}
+
+.hero article {
+    width: 860px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #247;
+    color: #fff;
 	position: absolute;
-    opacity: .9;
+    opacity: .6;
+    margin-top: -190px;
 }
 
 .hero article img {
@@ -84,17 +97,4 @@ nav a:hover {
     background-color: #bbb;
     width: 200px;
     height: auto;
-	
-}
-
-blockquote {
-	margin: 0;
-}
-
-cite {
-	display: block;
-    border-top: 1px dotted #fff;
-    padding-top: 3px;
-    text-align: right;
-    font-size: smaller;
 }
