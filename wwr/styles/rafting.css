@@ -17,7 +17,7 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
+    padding: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -97,4 +97,5 @@ nav a:hover {
     background-color: #bbb;
     width: 200px;
     height: auto;
+    max-width: 960px;
 }
