@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--paragraph-font);
-
+    max-width: 1500px;
     padding: 20px;
 }
 
@@ -65,7 +65,7 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     text-align: center;
-    width: 1480px;
+    width: 1440px;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .hero article {
-    width: 1460px;
+    width: 1440px;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 15px;
