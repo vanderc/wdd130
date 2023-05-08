@@ -63,17 +63,13 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 240, 0.858);
+    top: 340px;
+    left: 0;
+    right: 0;
     text-align: center;
-    width: 890px;
-    margin: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    background-color: #000;
-    color: #fff;
-    opacity: 0.6;
-    display: grid;
-    grid-template-columns: 100fr 3fr 1fr;
-    margin-top: -260px;
 }
 
 .hero article {
