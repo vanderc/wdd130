@@ -63,7 +63,6 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: rgba(255, 255, 240, 0.858);
     top: 340px;
