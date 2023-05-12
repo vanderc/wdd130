@@ -29,9 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
 }
 
-
+main {
+    max-width: 960px;
+}
 
 nav {
     background-color: var(--nav-background-color);
@@ -55,6 +60,10 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 /*Class Selectors*/
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -65,23 +74,21 @@ nav a:hover {
     position: absolute;
     color: var(--primary-color);
     background-color: rgba(255, 255, 240, 0.858);
-    top: 340px;
+    top: -10px;
     left: 0;
     right: 0;
     text-align: center;
 }
 
 .hero article {
-    width: 880px;
-    margin: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 5px;
-    background-color: #247;
-    color: #fff;
-	position: absolute;
-    opacity: .6;
-    margin-top: -170px;
-
+    position: absolute;
+    color: #000;
+    background-color: rgba(188, 165, 226, 0.858);
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 1px;
+    text-align: center;
 }
 
 .hero article img {
@@ -93,7 +100,28 @@ nav a:hover {
     width: 200px;
     height: auto;
 }
+.rafting{
+    max-width: 960px;
+}
+.rafting h2 {
+    display : flex;
+    justify-content : center;
+}
+.raftingimg {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+}
+.raftingimg img {
+    height : 100px;
+    width : auto;
+}
 
-.hero section img {
-    max-width: 560px;
+footer {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 960px;
 }
