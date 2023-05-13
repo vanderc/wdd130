@@ -126,3 +126,23 @@ footer {
     justify-content: space-evenly;
     max-width: 960px;
 }
+
+h2 {
+    text-align: center;
+}
+
+.history {
+    display: flex;
+}
+
+.history1 {
+    padding-right: 20px;
+}
+
+.history2 {
+    padding-left: 25px;
+}
+
+.historyimg img {
+    width: 200px;
+}
