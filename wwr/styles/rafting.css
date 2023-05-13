@@ -74,7 +74,7 @@ nav a:hover {
     position: absolute;
     color: var(--primary-color);
     background-color: rgba(255, 255, 240, 0.858);
-    top: -10px;
+    top: 100px;
     left: 0;
     right: 0;
     text-align: center;
@@ -83,8 +83,8 @@ nav a:hover {
 .hero article {
     position: absolute;
     color: #000;
-    background-color: rgba(188, 165, 226, 0.858);
-    top: 80px;
+    background-color: rgba(188, 165, 226, 0.6);
+    top: 200px;
     left: 0;
     right: 0;
     padding: 1px;
