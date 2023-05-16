@@ -43,15 +43,27 @@
         </div>
         <form>
             <fieldset>
+                <legend>If you have any questions please fill out this form</legend>
                 <label id="fullname">What is your full name?<input type="text" name="fullname"></label>
                 <label id="useremail">What is your email?<input type="email" name="useremail"></label>
-                <label for="purpose">What is the purpose of your message?</label>
-                <select id="purpose" name="purpose">
-                    <option value="" selected disabled>Choose One</option>
-                    <option value="general inquiry">General Inquiry</option>
-                    <option value="reservation question">Reservation Question</option>
-                    <option value="website suggestion">Website Suggestion</option>
-                </select>
+                <fieldset>
+                    <legend>Select purpose of message:</legend>
+
+                    <div>
+                      <input type="radio" id="message1" name="message" value="message1">
+                      <label for="message1">General Inquiry</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="message2" name="message" value="message2">
+                      <label for="message2">Reservation Question</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="message3" name="message" value="message3">
+                      <label for="message3">Website Suggestion</label>
+                    </div>
+                </fieldset>
                 <label for="message">What is your message?</label>
                 <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message Here"></textarea>
                 <label for="newsletter">Please subscribe me to the monthly newsletter</label>

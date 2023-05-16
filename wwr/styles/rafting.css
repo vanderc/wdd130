@@ -205,3 +205,14 @@ input[type="checkbox"] {
     height: 22px;
     vertical-align: bottom;
 }
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
