@@ -43,12 +43,6 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3em;
-}
-
 label {
     text-align: left;
     padding-right: 1rem;
@@ -57,12 +51,6 @@ label {
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-}
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
 }
 
 button {
