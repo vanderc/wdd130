@@ -222,3 +222,22 @@ legend {
     display: flex;
     justify-content: center;
 }
+
+.step1 img {
+    width: 640px;
+}
+
+.step3 img {
+    width: 640px;
+}
+h1 {
+    text-align: center;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.trip img {
+    width: 200px;
+}
