@@ -267,7 +267,14 @@ table, th, td {
     max-width : 350px;
     padding : 20px;
     background-color: #eee;
-    }
+}
+
+.newsletter button a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
 
 .grid {
     display : grid;
